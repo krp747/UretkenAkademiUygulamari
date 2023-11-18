@@ -1,0 +1,29 @@
+* {box-sizing: border-box;}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: dodgerblue;
+}
+
+div{
+    background-color: yellow;
+}
+
+table {margin: 10px; align-items: center; text-align: center; background-color: #fff;}
+
+tr:first-child td {border-top-color: black;}
+
+tr:nth-child(3n) td {border-bottom-color: black;}
+
+td {
+    border: 1px solid lightgrey;
+    height: 40px;
+    width: 40px;
+}
+
+td:first-child {border-left-color: black;}
+
+td:nth-child(3n) {border-right-color: black;}
